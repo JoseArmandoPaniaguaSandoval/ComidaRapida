@@ -4,7 +4,12 @@
     </div>
 </template>
 
-<style scoped>
+<style scoped> 
+    :slotted(img){
+        height: 12rem;
+        padding: 0.5rem;
+        background-color: snow;
+    }
     div{
         display: inline-block;
         text-align: center;

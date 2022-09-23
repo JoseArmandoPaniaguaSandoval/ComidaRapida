@@ -6,7 +6,10 @@
         <h5>${{costo}}</h5>
         
     </grid>
+
+    
 </template>
+
 
 <script>
 import Grid from "./Grid.vue";
@@ -28,6 +31,7 @@ import Grid from "./Grid.vue";
     components: { Grid }
 }
 </script>
+
 
 <style scoped>
     img{
