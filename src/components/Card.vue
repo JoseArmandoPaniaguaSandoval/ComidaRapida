@@ -1,7 +1,9 @@
 <template>
     <grid>
-        <img v-bind:src="url" :alt="nombre">
+        <img v-bind:src="url" :alt="nombre" :v-bind:descripcion="descripcion" :v-bind:costo="costo">
         <h4>{{nombre}}</h4>
+        <p>{{descripcion}}</p>
+        <h5>${{costo}}</h5>
         
     </grid>
 </template>
@@ -17,6 +19,9 @@ import Grid from "./Grid.vue";
             String
         },
         descripcion: {
+            String
+        },
+        costo: {
             String
         },
     },
